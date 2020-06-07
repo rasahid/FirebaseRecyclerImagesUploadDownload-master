@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        >
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/toolbar1"
+            android:background="@color/colorAccent"
+            android:layout_alignParentTop="true"
+
+            ></android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="35dp"
+               android:id="@+id/openUploadActivityBtn"
+
+                android:background="@android:color/white"
+                android:layout_marginTop="140dp"
+                android:text="upload"
+
+                android:padding="5dp"
+                android:drawableTop="@drawable/upload" />
+
+
+
+
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="140dp"
+
+
+                android:layout_marginLeft="28dp"
+                android:onClick="books"
+                android:text="Booking list"
+                android:background="@android:color/white"
+                android:drawableTop="@drawable/result" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="200dp">
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="35dp"
+                android:outlineSpotShadowColor="@android:color/background_dark"
+                android:layout_marginTop="140dp"
+                android:text="new update "
+                android:padding="5dp"
+                android:background="@android:color/white"
+                android:drawableTop="@drawable/chat" />
+
+
+
+
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="140dp"
+
+                android:layout_marginLeft="28dp"
+                android:id="@+id/openActivityBtn"
+                android:text="view_PG"
+                android:background="@android:color/white"
+
+
+                android:drawableTop="@drawable/ddd"
+
+                android:padding="5dp"
+                />
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

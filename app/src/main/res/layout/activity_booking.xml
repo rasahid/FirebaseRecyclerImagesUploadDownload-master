@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".booking">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/list12"
+        android:text="Booking Form"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+
+        ></TextView>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/na"
+    android:layout_below="@id/list12"
+    ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/na"
+        android:id="@+id/de"
+        ></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/de"
+        android:id="@+id/Fname"
+        android:hint="Full Name"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Fname"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:hint="For How Many Months" />
+    <EditText
+        android:layout_below="@id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="email"
+        />
+    <EditText
+        android:layout_below="@id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone"
+        android:inputType="numberDecimal"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Phone_no"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gender"
+        android:layout_below="@+id/phone"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Gender"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:layout_marginLeft="20dp"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:text="male"
+            android:id="@+id/male"
+            android:layout_marginStart="20dp"></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:text="female"
+            android:id="@+id/female"
+            ></RadioButton>
+
+
+    </RadioGroup>
+
+
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nationality"
+        android:layout_below="@+id/gender"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Nationality"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:layout_marginLeft="20dp"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:text="national"
+            android:id="@+id/national"
+            ></RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:text="international"
+            android:id="@+id/international"
+            ></RadioButton>
+
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nationality"
+        android:id="@+id/person"
+       android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:text="Total"
+        ></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/person"
+        android:id="@+id/persons"
+        android:layout_marginLeft="20dp"
+        android:hint="total person"
+        ></EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/persons"
+        android:id="@+id/btn_register"
+        android:text="Register"
+
+        android:background="@drawable/button"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+
+</RelativeLayout>

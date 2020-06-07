@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "600495239412",
+    "firebase_url": "https://mypg-e90f4.firebaseio.com",
+    "project_id": "mypg-e90f4",
+    "storage_bucket": "mypg-e90f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600495239412:android:642b28080e22acad81aea1",
+        "android_client_info": {
+          "package_name": "info.camposha.firebaserecyclerimagesuploaddownload"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600495239412-t4kddkbgfrnimrql4dbqpkgkfsripfde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB29CMeueRBZ_iyn5ULWhJkO68olY9EbAY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600495239412-t4kddkbgfrnimrql4dbqpkgkfsripfde.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
